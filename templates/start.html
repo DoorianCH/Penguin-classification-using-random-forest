@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="penguin-predictor">
+            <div class="penguin-image"></div>
+            <form method="POST" action="/home">
+                <input type="text" name = 'val1' class="input-field" placeholder="Culmen Length (mm)" id="culmen_length">
+                <input type="text" name = 'val2' class="input-field" placeholder="Culmen Depth (mm)" id="culmen_depth">
+                <input type="text" name = 'val3' class="input-field" placeholder="Flipper Length (mm)" id="flipper_length">
+                <input type="text" name = 'val4' class="input-field" placeholder="Body Mass (g)" id="body_mass">
+                <input type="submit" class="submit-button">Predict Penguin Type</input>
+            </form>
+        </div>
+    </div>
+    <script>
+        function predictPenguin() {
+            // Call your ML model here using the input values
+        }
+    </script>
+</body>
+</html>
