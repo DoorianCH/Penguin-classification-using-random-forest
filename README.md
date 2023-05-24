@@ -6,22 +6,21 @@
 <img src="https://github.com/DoorianCH/Penguin-classification-using-random-forest/assets/132414381/c7a0665f-ede6-4da1-9c4c-1ff1f6452e35">
 
 ### Duration
-    * 23-05-03 ~ 23-05-12
+    * 23-05-24
 
 ### Purpose
-    1. AI's recommendation simplifies user choice
-    2. Identify the user's clothing consumption pattern
-    3. Efficient management assistance for sellers through consumption data
+    1. Using and studing AI model, RandomForest
+    2. Searching Caggle Data and Utilizing the data
+    3. Improve the ability to use flask
 
 ### Languge
     * python
-    * JavaScript
     * Html
     * CSS
     * Flask
 
 ### using
-    1. Start VsCode
-    2. Run 'python3 app.py' on Python terminal
-    3. Select host
-    4. Select gender & describe situations
+    0. Collect data from the kaggle (URL)[https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data]
+    1. Start VsCode & Create R.F model, using 'model.ipynb' -> be created 'pg_rf.pkl'
+    2. Run the server as 'flask_app.py' 
+    
