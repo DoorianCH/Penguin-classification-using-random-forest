@@ -1,5 +1,5 @@
 # Penguin-classification-using-random-forest
-
+"This project is to apply the "Random forest model" to the web environment"
 <img width = "80%" src ="https://images.pexels.com/photos/52509/penguins-emperor-antarctic-life-52509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
 
 ### structural diagram
