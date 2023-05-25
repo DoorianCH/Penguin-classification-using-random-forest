@@ -22,6 +22,7 @@
 
 ### using
     0. Collect data from the kaggle URL(https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data)
+     CLICK(https://github.com/DoorianCH/Recommend-cloths-using-ChatGpt)
     1. Start VsCode & Create R.F model, using 'model.ipynb' -> be created 'pg_rf.pkl'
     2. Run the server as 'flask_app.py' 
     
